@@ -1,0 +1,14 @@
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\bin\Debug\net6.0\CSHelloworld.exe
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\bin\Debug\net6.0\CSHelloworld.deps.json
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\bin\Debug\net6.0\CSHelloworld.runtimeconfig.json
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\bin\Debug\net6.0\CSHelloworld.dll
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\bin\Debug\net6.0\CSHelloworld.pdb
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\CSHelloworld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\CSHelloworld.AssemblyInfoInputs.cache
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\CSHelloworld.AssemblyInfo.cs
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\CSHelloworld.csproj.CoreCompileInputs.cache
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\CSHelloworld.dll
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\refint\CSHelloworld.dll
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\CSHelloworld.pdb
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\CSHelloworld.genruntimeconfig.cache
+C:\Users\FPT\Documents\CSHelloworld\CSHelloworld\obj\Debug\net6.0\ref\CSHelloworld.dll
