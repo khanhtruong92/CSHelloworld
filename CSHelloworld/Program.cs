@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int x = 5;
-            int y = 10;
-            Console.WriteLine(Math.Max(x, y));
+            string greeting = "Hello.";
+            Console.WriteLine(greeting);
         }
     }
 }
