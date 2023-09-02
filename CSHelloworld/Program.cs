@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            string greeting = "Hello.";
-            Console.WriteLine(greeting);
+            bool isCodingFun = true;
+            bool isFishTasty = false;
+            Console.WriteLine(isCodingFun);
+            Console.WriteLine(isFishTasty);
         }
     }
 }
