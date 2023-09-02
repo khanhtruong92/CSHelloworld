@@ -2,12 +2,16 @@
 {
     internal class Program
     {
-        // This is a single-line comment
-        /* This is a multi-line comment */
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int myNum = 50;
+            int x = 5;
+            int y = 10;
+            int z = x + y;
+            Console.WriteLine(z);
+
+            int a = 5, b = 6, c = 50;
+            Console.WriteLine(a + b + c);
         }
     }
 }
