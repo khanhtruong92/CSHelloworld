@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(10 * 5);
+            int x = 5;
+            int y = 10;
+            Console.WriteLine(Math.Max(x, y));
         }
     }
 }
