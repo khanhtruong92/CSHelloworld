@@ -7,26 +7,19 @@ namespace CSHelloworld
     {
         static void Main(string[] args)
         {
-            //Print "Hello World" if x is greater than y.
-            int x = 50;
-            int y = 10;
-            if (x > y)
-{
-                Console.WriteLine("Hello World");
-            }
+            //Insert the missing parts to complete the following switch statement.
+            int day = 2;
+            switch (day)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
 
-            //Print "Hello World" if x is equal to y.
-            int a = 50;
-            int b = 50;
-            if (a == b)
-{
-                Console.WriteLine("Hello World");
-            }
-
-            //Insert the missing parts to complete the following "short hand if...else statement"(ternary operator):
-            int time = 20;
-            string result = (time < 18) ? "Good day." : "Good evening.";
-            Console.WriteLine(result);
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
         }
+
     }
+}
 }
