@@ -7,23 +7,11 @@ namespace CSHelloworld
     {
         static void Main(string[] args)
         {
-            // Print i as long as i is less than 6.
-            int i = 1;
-            while (i < 6)
+            // Use a for loop to print "Yes" 5 times:
+            for (int i = 0; i < 5; i++) 
             {
-                Console.WriteLine(i);
-                i++;
+                Console.WriteLine("Yes");
             }
-
-            // Use the do/while loop to print i as long as i is less than 6.
-            int j = 1;
-            do
-            {
-                Console.WriteLine(j);
-                j++;
-            }
-            while (j < 6);
         }
-
     }
 }
