@@ -7,19 +7,23 @@ namespace CSHelloworld
     {
         static void Main(string[] args)
         {
-            //Insert the missing parts to complete the following switch statement.
-            int day = 2;
-            switch (day)
+            // Print i as long as i is less than 6.
+            int i = 1;
+            while (i < 6)
             {
-                case 1:
-                    Console.WriteLine("Monday");
-                    break;
+                Console.WriteLine(i);
+                i++;
+            }
 
-                case 2:
-                    Console.WriteLine("Tuesday");
-                    break;
+            // Use the do/while loop to print i as long as i is less than 6.
+            int j = 1;
+            do
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+            while (j < 6);
         }
 
     }
-}
 }
