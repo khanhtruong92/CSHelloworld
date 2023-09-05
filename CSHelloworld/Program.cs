@@ -6,17 +6,15 @@ namespace CSHelloworld
 {
     internal class Program
     {
-        // Add a fname parameter of type string to MyMethod.
-        static void MyMethod(string fname)
+        // Insert the missing part to print the number 8 in Main, by using a specific keyword inside MyMethod:
+        static int MyMethod(int x)
         {
-            Console.WriteLine(fname + " Refsnes");
+            return 5 + x;
         }
 
         static void Main(string[] args)
         {
-            MyMethod("Liam");
-            MyMethod("Jenny");
-            MyMethod("Anja");
+            Console.WriteLine(MyMethod(3));
         }
 
     }
