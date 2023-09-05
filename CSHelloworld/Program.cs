@@ -8,7 +8,7 @@ namespace CSHelloworld
         //Insert the missing parts to call MyMethod two times..
         static void MyMethod()
         {
-            Console.WriteLine("I just got executed!");
+            Console.WriteLine("I just got executed 5!");
         }
 
         static void Main(string[] args)
