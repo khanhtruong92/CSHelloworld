@@ -1,28 +1,22 @@
 ﻿using System.ComponentModel;
 using System.Net.WebSockets;
+using System.Xml.Linq;
 
 namespace CSHelloworld
 {
     internal class Program
     {
-        //Insert the missing parts to call MyMethod two times..
-        static void MyMethod()
+        // Add a fname parameter of type string to MyMethod.
+        static void MyMethod(string fname)
         {
-            Console.WriteLine("I just got executed 5!");
+            Console.WriteLine(fname + " Refsnes");
         }
 
         static void Main(string[] args)
         {
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
+            MyMethod("Liam");
+            MyMethod("Jenny");
+            MyMethod("Anja");
         }
 
     }
