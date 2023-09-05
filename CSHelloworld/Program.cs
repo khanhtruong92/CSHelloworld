@@ -5,24 +5,27 @@ namespace CSHelloworld
 {
     internal class Program
     {
-        //Insert the missing parts to call MyMethod two times..
-        static void MyMethod()
-        {
-            Console.WriteLine("I just got executed 5!");
-        }
-
+        // homework 1 : Write a function to output student grade.
         static void Main(string[] args)
         {
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
-            MyMethod();
+            int mark = 80;
+
+            if (mark > 60) 
+            {
+                Console.WriteLine("First Division");
+            } 
+            else if (mark >= 45 && mark <= 59)
+            {
+                Console.WriteLine("Second Division");
+            } 
+            else if (mark >= 33 && mark <= 44)
+            {
+                Console.WriteLine("Third Division");
+            } 
+            else
+            {
+                Console.WriteLine("Fail");
+            }
         }
 
     }
