@@ -1,17 +1,29 @@
-﻿using System.Collections.Generic;
-using System.Reflection;
+﻿using System.ComponentModel;
+using System.Net.WebSockets;
 
 namespace CSHelloworld
 {
     internal class Program
     {
+        //Insert the missing parts to call MyMethod two times..
+        static void MyMethod()
+        {
+            Console.WriteLine("I just got executed 5!");
+        }
+
         static void Main(string[] args)
         {
-            // Use a for loop to print "Yes" 5 times:
-            for (int i = 0; i < 5; i++) 
-            {
-                Console.WriteLine("Yes");
-            }
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
         }
+
     }
 }
