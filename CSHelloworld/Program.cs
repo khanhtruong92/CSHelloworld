@@ -16,6 +16,9 @@ namespace CSHelloworld
             MyMethod();
             MyMethod();
             MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
         }
 
     }
