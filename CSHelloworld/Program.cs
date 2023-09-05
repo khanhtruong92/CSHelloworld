@@ -5,7 +5,7 @@ namespace CSHelloworld
 {
     internal class Program
     {
-        //Create a method named MyMethod and call it inside Main().
+        //Insert the missing parts to call MyMethod two times..
         static void MyMethod()
         {
             Console.WriteLine("I just got executed!");
@@ -14,6 +14,8 @@ namespace CSHelloworld
         static void Main(string[] args)
         {
             MyMethod();
+            MyMethod();
         }
+
     }
 }
